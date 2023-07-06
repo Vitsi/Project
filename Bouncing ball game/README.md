@@ -1,0 +1,1 @@
+bouncing ball game written in Python using the OpenGL library. The program creates a ball that bounces around the screen and a paddle 
