@@ -1,4 +1,5 @@
-This is not finished yet although it is the front end of a flight booking website.
+This is not finished yet although this is the frontend code for a flight booking website called Flight Hub. The website allows users to book flights, track their flights, and manage their bookings.
 
-just started with js and footer of html not strated yet.
-html service section needs slider and will be done.
+The code is written in HTML, CSS, and JavaScript
+
+The website allows users to book flights by providing options on departing, arrival place, date of departure, etc. it then gives conformation in a modal that a flight was booked succesfully.

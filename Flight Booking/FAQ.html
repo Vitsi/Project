@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="stylet.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link haref="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>FAQ Accordion</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">FLIGHT HUB
+            <div class='bx bxs-plane-alt' id="plane icon" ></div>
+        </a>          
+            <uL class="navbar">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </uL>
+    </header>
+<section class="FAQ">
+    <div class="accordion">
+        <h2 class="accordion-title">Frequently Asked Questions</h2>
+         
+        <div class="content-container">
+            <div class="question">How can I find the cheapest flights?</div>
+            <div class="answer">You can use our website to compare prices from different airlines and travel agents.</div>
+        </div>
+
+        <div class="content-container">
+            <div class="question">What are the different types of flights?</div>
+            <div class="answer">There are many different types of flights, including direct flights, connecting flights, and multi-leg flights.</div>
+        </div>
+
+        <div class="content-container">
+            <div class="question">What are the different ways to book a flight?</div>
+            <div class="answer">You can book a flight online, by phone, or in person at a travel agency.</div>
+        </div>
+        <div class="content-container">
+            <div class="question">What are the different types of travel insurance?</div>
+            <div class="answer">There are many different types of travel insurance, including trip cancellation insurance, baggage insurance, and medical insurance.</div>
+        </div>
+    </div>
+
+</section>
+    <script>
+        const accordion = document.getElementsByClassName('content-container');
+
+for(i = 0; i < accordion.length; i++){
+
+    accordion[i].addEventListener('click', function(){
+        this.classList.toggle('active');  
+    }) 
+
+};
+    </script>
+    
+<!--footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul>
+          <li><a href="about.html" target="_blank">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <ul class="con">
+            <li><a href="tel:123-456-7890"><i class='bx bxs-phone'>  123-456-7890 </i></a></li>
+            <li><a href="whatsapp:+12345678900"><i class='bx bxl-whatsapp'>    WhatsApp</i></a></li>
+            <li><a href="mailto:flighthub@fakegmail.com?subject=Customer support"><i class='bx bxl-gmail'>    Customer support</i></a></li>
+        </ul>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>get help</h4>
+        <ul>
+          <li><a  href="booking.html" target="_blank">Book a Flight</a></li>
+          <li><a href="#">Track Your Flight</a></li>
+          <li><a href="#">Manage Your Bookings</a></li>
+          <li><a href="#">Payment Options</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Travel and Accommodation</h4>
+        <ul>
+          <li><a href="#">Hotels</a></li>
+          <li><a href="#">Car Rentals</a></li>
+          <li><a href="#">Activities</a></li>
+          <li><a href="#">Insurance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+          <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+          <li><a href="#"><i class="bx bxl-instagram-alt"></i></a></li>       
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
